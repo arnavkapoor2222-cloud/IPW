@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>India Mint Stamp — Library of Indian Philately</title>
+  <meta name="description" content="A reference library of Indian philately: first day covers, permanent pictorial cancellations, postal stationery and thematic collections.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">₹</span>
+      <span class="brand-text">
+        <strong>India Mint Stamp</strong>
+        <em>Library of Indian Philately</em>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+      Menu
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <a href="index.html" class="is-current">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <h1>A catalogue of what Indian post has printed, franked and flown.</h1>
+        <p class="lede">
+          Covers, cancellations and postal stationery, recorded issue by issue so that
+          collectors can check a date, a cachet or a cancellation without hunting through
+          a dozen albums.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#catalogue">Browse the catalogue</a>
+          <a class="btn btn-quiet" href="about.html">How this is organised</a>
+        </div>
+      </div>
+
+      <figure class="hero-stamp" aria-hidden="true">
+        <div class="stamp stamp-hero">
+          <div class="stamp-face">
+            <span class="stamp-country">भारत &middot; India</span>
+            <span class="stamp-motif">✉</span>
+            <span class="stamp-value">1600 ✦ Ps</span>
+          </div>
+        </div>
+        <div class="postmark">
+          <svg viewBox="0 0 160 160" role="presentation">
+            <defs>
+              <path id="arcTop" d="M 22,80 A 58,58 0 0 1 138,80" />
+              <path id="arcBot" d="M 26,80 A 54,54 0 0 0 134,80" />
+            </defs>
+            <circle cx="80" cy="80" r="70" class="pm-ring"></circle>
+            <circle cx="80" cy="80" r="62" class="pm-ring pm-ring-thin"></circle>
+            <text class="pm-text"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">PHILATELIC BUREAU</textPath></text>
+            <text class="pm-text"><textPath href="#arcBot" startOffset="50%" text-anchor="middle">CHENNAI 600001</textPath></text>
+            <text x="80" y="88" class="pm-date" text-anchor="middle">19.09.26</text>
+            <line x1="26" y1="60" x2="134" y2="60" class="pm-bar"></line>
+            <line x1="26" y1="100" x2="134" y2="100" class="pm-bar"></line>
+          </svg>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="catalogue">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The catalogue</h2>
+        <p>Each section is a run of covers held and photographed in hand.</p>
+      </div>
+
+      <!-- Built from data/sections.json. Do not hand-edit; edit that file. -->
+      <ul class="cat-grid" id="catGrid"></ul>
+
+      <p class="loading" id="catStatus">Loading the catalogue…</p>
+    </div>
+  </section>
+
+  <section class="section section-tinted">
+    <div class="wrap about-strip">
+      <div class="about-copy">
+        <h2>Built from one collection, open to all of them.</h2>
+        <p>
+          Everything here was scanned from material in hand, then dated and described against
+          the India Post announcement for that issue. Where a cover came from another collector,
+          it is credited on the entry.
+        </p>
+        <p>
+          If you hold something this catalogue is missing — or a variety it records wrongly —
+          write in. Corrections are the point.
+        </p>
+        <a class="btn btn-quiet" href="contact.html">Send a correction</a>
+      </div>
+
+      <aside class="ledger">
+        <h3>Recently added</h3>
+        <ol class="ledger-list">
+          <li><span class="ledger-date">12 Sep</span> Wetland birds, miniature sheet FDC</li>
+          <li><span class="ledger-date">04 Sep</span> Pictorial cancellation, Mahabalipuram</li>
+          <li><span class="ledger-date">28 Aug</span> GI tag cover, Madurai malli</li>
+        </ol>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <p class="foot-note">
+      A personal reference collection. Images are of material held by the collector and are
+      not offered for sale.
+    </p>
+    <p class="foot-meta">
+      <span>&copy; <span id="year">2026</span> India Mint Stamp</span>
+      <a href="contact.html">Contact</a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

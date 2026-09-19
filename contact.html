@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — India Mint Stamp</title>
+  <meta name="description" content="Send a correction, a contribution or a question about Indian philately.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">₹</span>
+      <span class="brand-text">
+        <strong>India Mint Stamp</strong>
+        <em>Library of Indian Philately</em>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+      Menu
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="is-current">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Contact</h1>
+      <p class="lede">
+        Corrections, contributions and questions all reach the same inbox.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap contact-grid">
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="field">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="field">
+        <label for="topic">What is this about</label>
+        <select id="topic" name="topic">
+          <option>A correction to an entry</option>
+          <option>Material to contribute</option>
+          <option>A question about an item</option>
+          <option>Something else</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-solid">Open in email</button>
+      <p class="form-hint" id="formHint" role="status">
+        This opens your mail app with the message filled in. Attach scans there.
+      </p>
+    </form>
+
+    <aside class="contact-aside">
+      <h2>Direct</h2>
+      <p><a href="mailto:indiamintstamp@gmail.com">indiamintstamp@gmail.com</a></p>
+
+      <h2>Before you write</h2>
+      <p>
+        For a correction, the date and the post office name are usually enough to find the
+        entry. A scan at 300 dpi or better helps most.
+      </p>
+
+      <h2>Use of images</h2>
+      <p>
+        Images here may be reused for non-commercial study with a credit back to this site.
+        Ask first for anything else.
+      </p>
+    </aside>
+
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <p class="foot-note">
+      A personal reference collection. Images are of material held by the collector and are
+      not offered for sale.
+    </p>
+    <p class="foot-meta">
+      <span>&copy; <span id="year">2026</span> India Mint Stamp</span>
+      <a href="contact.html">Contact</a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

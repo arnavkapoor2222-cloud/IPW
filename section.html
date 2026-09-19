@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Section — India Mint Stamp</title>
+  <meta name="description" content="A section of the Indian philately reference catalogue.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">₹</span>
+      <span class="brand-text">
+        <strong>India Mint Stamp</strong>
+        <em>Library of Indian Philately</em>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+      Menu
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-head">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a> <span aria-hidden="true">/</span>
+        <span id="crumbTitle">Section</span>
+      </nav>
+      <h1 id="sectionTitle">Loading…</h1>
+      <p class="lede" id="sectionIntro"></p>
+    </div>
+  </section>
+
+  <section class="wrap controls" id="controls" hidden>
+    <div class="field">
+      <label for="search">Search this section</label>
+      <input type="search" id="search" placeholder="Office, state or motif" autocomplete="off">
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by region"></div>
+    <p class="result-count" id="resultCount" aria-live="polite"></p>
+  </section>
+
+  <section class="wrap">
+    <!-- Entries are built from the section's JSON file. -->
+    <ul class="item-grid" id="itemGrid"></ul>
+    <p class="empty" id="emptyState" hidden>
+      No entry matches that. Try a post office name, a state, or clear the filter.
+    </p>
+    <p class="loading" id="status">Loading entries…</p>
+  </section>
+
+</main>
+
+<!-- Lightbox for full-size images -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close image">&times;</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">&lsaquo;</button>
+  <figure class="lb-stage">
+    <img id="lbImage" src="" alt="">
+    <figcaption id="lbCaption"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">&rsaquo;</button>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <p class="foot-note">
+      A personal reference collection. Images are of material held by the collector and are
+      not offered for sale.
+    </p>
+    <p class="foot-meta">
+      <span>&copy; <span id="year">2026</span> India Mint Stamp</span>
+      <a href="contact.html">Contact</a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

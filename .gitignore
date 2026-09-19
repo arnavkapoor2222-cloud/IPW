@@ -1,0 +1,20 @@
+# Original high-resolution scans — keep these OUT of the repo.
+# They are large, and GitHub has file and repo size limits.
+# Back them up separately (external drive, Drive, OneDrive).
+originals/
+*.tif
+*.tiff
+*.psd
+*.RAW
+
+# Windows / macOS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Node, if you ever add tooling
+node_modules/
