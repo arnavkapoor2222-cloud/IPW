@@ -1,0 +1,51 @@
+{
+  "_comment": "Every section of the catalogue. Add one block per section. 'slug' must match the data file name: slug 'ppc' -> data/ppc.json, and the page is section.html?s=ppc",
+
+  "sections": [
+    {
+      "slug": "ppc",
+      "title": "Permanent pictorial cancellations",
+      "blurb": "Standing cancellations by post office, with the monument or motif each one carries."
+    },
+    {
+      "slug": "fdc",
+      "title": "Definitive first day covers",
+      "blurb": "The definitive series from the Anna period onwards, cover by cover."
+    },
+    {
+      "slug": "flight",
+      "title": "First flight covers",
+      "blurb": "Inaugural routes, carried mail and the cachets applied at each end."
+    },
+    {
+      "slug": "msfdc",
+      "title": "Miniature sheet FDCs",
+      "blurb": "Full miniature sheets on first day covers, including se-tenant issues."
+    },
+    {
+      "slug": "gandhi150",
+      "title": "Gandhi 150",
+      "blurb": "The 2019 commemoratives, special covers and the cancellations struck for them."
+    },
+    {
+      "slug": "autographed",
+      "title": "Autographed covers",
+      "blurb": "Covers signed by designers, engravers and the people depicted on the issue."
+    },
+    {
+      "slug": "gitag",
+      "title": "GI tag covers",
+      "blurb": "Special covers marking geographical indication tags across the states."
+    },
+    {
+      "slug": "meghdoot",
+      "title": "Meghdoot postcards",
+      "blurb": "Advertising postcards by issuing circle, theme and print run."
+    },
+    {
+      "slug": "fpo",
+      "title": "Field post office covers",
+      "blurb": "FPO and APO markings, including exhibition and campaign usage."
+    }
+  ]
+}

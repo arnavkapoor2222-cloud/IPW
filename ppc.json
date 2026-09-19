@@ -1,0 +1,78 @@
+{
+  "title": "Permanent pictorial cancellations",
+  "intro": "Cancellations kept standing at a post office and applied on request. Each entry records the office, the date the cancellation was introduced and what it depicts.",
+
+  "_howToAddAnEntry": [
+    "Copy one block from 'entries' below, paste it after the last one, and mind the comma between blocks.",
+    "'region' drives the filter buttons. The buttons build themselves from whatever values you use here, so if you invent a new region it appears on its own.",
+    "'specs' can hold any labels you like. Whatever you type on the left shows as the label.",
+    "'images' lists filenames inside the images folder. Leave the list empty and a blank stamp placeholder shows instead, so entries work before you have photographed them.",
+    "Every entry needs a unique 'id'. Use it as the image filename too and you will never lose track of which scan belongs where."
+  ],
+
+  "entries": [
+    {
+      "id": "ppc-thanjavur-1997",
+      "title": "Brihadeeswarar Temple",
+      "region": "south",
+      "specs": {
+        "Office": "Thanjavur HO",
+        "In use from": "14 Apr 1997",
+        "Depicts": "Vimana of the Chola temple"
+      },
+      "note": "Struck in black; a violet strike is recorded from 2003.",
+      "images": [
+        { "file": "ppc/thanjavur-1997-cover.jpg", "caption": "Full cover, black strike" },
+        { "file": "ppc/thanjavur-1997-strike.jpg", "caption": "Detail of the cancellation" }
+      ]
+    },
+    {
+      "id": "ppc-mahabalipuram-2001",
+      "title": "Shore Temple",
+      "region": "south",
+      "specs": {
+        "Office": "Mahabalipuram SO",
+        "In use from": "02 Oct 2001",
+        "Depicts": "Shore Temple and the Pallava lion"
+      },
+      "note": "Frequently seen on tourist mail; clean strikes are scarce.",
+      "images": []
+    },
+    {
+      "id": "ppc-agra-1995",
+      "title": "Taj Mahal",
+      "region": "north",
+      "specs": {
+        "Office": "Agra Cantt HO",
+        "In use from": "18 Jan 1995",
+        "Depicts": "Central dome and minarets"
+      },
+      "note": "Two dies exist; the later one carries a thinner outer ring.",
+      "images": []
+    },
+    {
+      "id": "ppc-kolkata-1993",
+      "title": "Howrah Bridge",
+      "region": "east",
+      "specs": {
+        "Office": "Kolkata GPO",
+        "In use from": "03 Feb 1993",
+        "Depicts": "Cantilever span over the Hooghly"
+      },
+      "note": "The oldest pictorial cancellation still in regular use here.",
+      "images": []
+    },
+    {
+      "id": "ppc-mumbai-1999",
+      "title": "Gateway of India",
+      "region": "west",
+      "specs": {
+        "Office": "Mumbai GPO",
+        "In use from": "26 Jan 1999",
+        "Depicts": "Gateway arch with harbour line"
+      },
+      "note": "Applied at the philatelic counter only.",
+      "images": []
+    }
+  ]
+}
